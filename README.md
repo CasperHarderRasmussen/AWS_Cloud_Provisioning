@@ -1,2 +1,2 @@
 # AWS_Cloud_Provisioning
-This repo is my trainingground for optaining the Terraform Proff Cert 
+This project aims to build a terraform template for provisioning a AWS linux server, that can be used as privat DHCP and DNS server.

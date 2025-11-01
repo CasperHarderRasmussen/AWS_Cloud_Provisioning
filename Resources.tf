@@ -1,4 +1,4 @@
-resource "aws_instance" "VM" {
+resource "aws_instance" "DNS_Server" {
     ami           = "ami-0ad8b99f4758cb35d"
     instance_type = "t2.medium"
     subnet_id = "10.0.0.0/24"

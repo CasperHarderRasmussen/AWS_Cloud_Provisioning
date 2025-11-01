@@ -1,4 +1,4 @@
-resource "aws_ami" "example" {
+resource "aws_ami" "DNS_Server_Ubuntu_22_04" {
   description         = "Bind DNS server based on Ubuntu 22.04 LTS release"
   name                = "Cloud-Infrastructure-Services-DNS-Ubuntu-22-04-2025.10.01.075031-de025d02-0189-4389-b82f-9c86871fd7e9"
   virtualization_type = "hvm"

@@ -3,14 +3,8 @@ This project aims to build a terraform template for provisioning a Ubuntu 22.04 
 
 ## AWS Access Credentials
 The Terraform code assumes the creation of a ".tfvar" file that contains the crudentials needed to gain access to the AWS cloud instance. This file is assumed to contain the following two variables :
-<<<<<<< HEAD
-
--**Access_Key** : This string variable contains the access key.
--**Secret_Key** : This string variable contains the secret key.
-=======
   -**Access_Key** : This string variable contains the access key.
   -**Secret_Key** : This string variable contains the secret key.
->>>>>>> b59b1a8640e00f0f203ae2ab2e65c07549f4a77a
 
 ## Bind 9 DNS Server Configuration
 The Bind 9 DNS server is configured by using Chef Automation system.
